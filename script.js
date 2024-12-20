@@ -1,7 +1,23 @@
 // G-Version - Split the Nota
 // Skriv din pseudokod innanför nedanstående kommentarsblock
 /*
+BEGIN
 
+    // Läs in indata
+    READ summa        // Total summa på notan, t.ex. 1000
+    READ antal_vanner // Antal vänner, t.ex. 4
+    READ dricks       // Dricks i decimalform, t.ex. 0.10 för 10%
+
+    // Beräkna totalbelopp 
+    total_belopp = summa + (summa * dricks)
+
+    // Beräkna vad varje person ska betala
+    kostnad_per_person = total_belopp / antal_vanner
+
+    //resultat
+    PRINT "Varje person ska betala: " + kostnad_per_person + " kr"
+
+END
 
 */
 
